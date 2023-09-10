@@ -52,9 +52,10 @@ header {
 
 /* feature section */
 
-.featured{
+.featured {
     margin: 0px auto;
     margin-top: 200px;
+    padding: 0 60px;
 }
 
 .feature-title {
@@ -112,4 +113,37 @@ header {
     font-size: 24px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+
+/* extra section */
+
+.extra{
+    width: 1230px;
+    margin: 100px auto;
+}
+
+.extra-content{
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 80px 50px 60px 50px;
+}
+
+.extra .extra-img-1{
+    width: 80px;
+    padding-left: 130px;
+}
+
+.extra-img-3{
+    width: 80px;
+    padding-left: 50px;
+}
+
+.extra p {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
 }
