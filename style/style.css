@@ -117,12 +117,12 @@ header {
 
 /* extra section */
 
-.extra{
+.extra {
     width: 1230px;
     margin: 100px auto;
 }
 
-.extra-content{
+.extra-content {
     border-radius: 8px;
     background: rgba(39, 39, 39, 0.05);
     display: flex;
@@ -131,12 +131,12 @@ header {
     padding: 80px 50px 60px 50px;
 }
 
-.extra .extra-img-1{
+.extra .extra-img-1 {
     width: 80px;
-    padding-left: 130px;
+    padding-left: 120px;
 }
 
-.extra-img-3{
+.extra-img-3 {
     width: 80px;
     padding-left: 50px;
 }
@@ -144,6 +144,47 @@ header {
 .extra p {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: 600;
+}
+
+/* hot deal */
+.hot-deal-container{
+    background: rgba(229, 84, 115, 0.10);
+    margin: 150px 0;
+
+}
+.hot-deal{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 100px;
+    margin: 0px auto;
+    width: 1200px;
+    padding: 70px;
+    margin-top: 50px;
+}
+.hot-deal-title {
+    color: #272727;
+    text-align: center;
+    font-size: 38px;
+    font-weight: 800;
+    margin: 30px 0;
+}
+
+.hot-deal-title span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.hot-deal p {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 15px 0;
+}
+.hot-deal .btn-shop{
+    margin-left: 220px;
 }
