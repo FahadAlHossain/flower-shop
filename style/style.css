@@ -1,0 +1,49 @@
+body {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin: 0px;
+}
+
+header{
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner{
+    display: flex;
+    margin: 0px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 30px 30px 0 150px;
+}
+
+.banner-content{
+    max-width: 600px;
+}
+
+.banner-title {
+    color: #272727;
+    font-size: 60px;
+    font-weight: 800;
+    margin: 0;
+}
+
+.banner-description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+    padding: 25px 0;
+}
+
+.btn-shop {
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 700;
+    background: #E55473;
+    border-radius: 8px;
+    padding: 20px 43px;
+    border: none;
+}
+
+.banner-img{
+    width: 550px;
+}
