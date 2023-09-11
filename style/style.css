@@ -120,6 +120,7 @@ header {
 .extra {
     width: 1230px;
     margin: 100px auto;
+    text-align: center;
 }
 
 .extra-content {
@@ -133,12 +134,10 @@ header {
 
 .extra .extra-img-1 {
     width: 80px;
-    padding-left: 120px;
 }
 
 .extra-img-3 {
     width: 80px;
-    padding-left: 50px;
 }
 
 .extra p {
@@ -149,12 +148,12 @@ header {
 }
 
 /* hot deal */
-.hot-deal-container{
+.hot-deal-container {
     background: rgba(229, 84, 115, 0.10);
     margin: 150px 0;
-
 }
-.hot-deal{
+
+.hot-deal {
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,6 +163,11 @@ header {
     padding: 70px;
     margin-top: 50px;
 }
+
+.hot-deal-content {
+    text-align: center;
+}
+
 .hot-deal-title {
     color: #272727;
     text-align: center;
@@ -185,47 +189,81 @@ header {
     font-weight: 400;
     padding: 15px 0;
 }
-.hot-deal .btn-shop{
-    margin-left: 220px;
-}
 
 /* instagram */
 
-.insta-container{
+.insta-container {
     margin: 120px auto;
     width: 1250px;
 }
 
-.insta-img{
+.insta-img {
     display: flex;
     justify-content: space-around;
 }
-.insta-img img{
+
+.insta-img img {
     width: 300px;
 }
 
 /* deals */
 
-.deal-container{
+.deal-container {
     margin: 50px auto;
     width: 1240px;
 }
 
-.deals{
+.deals {
     background-image: url("../Flower Asset/Rectangle 9.png");
     background-repeat: no-repeat;
     height: 440px;
 }
 
-.deals h1{
+.deals h1 {
     padding-top: 100px;
 }
-.deals-form{
+
+.deals-form {
     text-align: center;
 }
-.deals-form input{
+
+.deals-form input {
     padding: 25px 450px 25px 20px;
     border: none;
     border-radius: 8px;
     margin: 0 10px 0 0px;
+}
+
+/* footer */
+
+footer {
+    background: #111010;
+    text-align: center;
+    padding: 130px 0;
+    margin-top: 170px;
+}
+
+footer h1 {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 750;
+}
+
+footer span {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 750;
+}
+
+footer p{
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+footer small {
+    color: rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+    font-weight: 400;
 }
