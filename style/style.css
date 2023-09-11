@@ -188,3 +188,44 @@ header {
 .hot-deal .btn-shop{
     margin-left: 220px;
 }
+
+/* instagram */
+
+.insta-container{
+    margin: 120px auto;
+    width: 1250px;
+}
+
+.insta-img{
+    display: flex;
+    justify-content: space-around;
+}
+.insta-img img{
+    width: 300px;
+}
+
+/* deals */
+
+.deal-container{
+    margin: 50px auto;
+    width: 1240px;
+}
+
+.deals{
+    background-image: url("../Flower Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    height: 440px;
+}
+
+.deals h1{
+    padding-top: 100px;
+}
+.deals-form{
+    text-align: center;
+}
+.deals-form input{
+    padding: 25px 450px 25px 20px;
+    border: none;
+    border-radius: 8px;
+    margin: 0 10px 0 0px;
+}
